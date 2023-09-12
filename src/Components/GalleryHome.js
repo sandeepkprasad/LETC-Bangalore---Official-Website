@@ -42,7 +42,7 @@ const GalleryHome = () => {
               gallery.map((item) => (
                 <img
                   className="w-[220px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300 rounded-3xl"
-                  src={`https://letc-backend.onrender.com/galleryimage/${item.image}`}
+                  src={`https://www.cwtrust-india.com/galleryimage/${item.image}`}
                   alt="/"
                   key={item._id}
                 />

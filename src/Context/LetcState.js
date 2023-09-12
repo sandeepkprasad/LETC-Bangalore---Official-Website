@@ -10,7 +10,7 @@ const LetcState = (props) => {
   const [exam, setExam] = useState([]);
 
   const getNotification = async () => {
-    let url = "https://letc-backend.onrender.com/notification/getnotification";
+    let url = "https://www.cwtrust-india.com/notification/getnotification";
 
     const response = await fetch(url, {
       method: "GET",
@@ -22,7 +22,7 @@ const LetcState = (props) => {
   };
 
   const addEnquiry = async (name, number, course) => {
-    let url = "https://letc-backend.onrender.com/enquiry/addenquiry";
+    let url = "https://www.cwtrust-india.com/enquiry/addenquiry";
 
     const response = await fetch(url, {
       method: "POST",
@@ -39,7 +39,7 @@ const LetcState = (props) => {
   };
 
   const getGallery = async () => {
-    let url = "https://letc-backend.onrender.com/gallery/getgallery";
+    let url = "https://www.cwtrust-india.com/gallery/getgallery";
 
     const response = await fetch(url, {
       method: "GET",
@@ -51,7 +51,7 @@ const LetcState = (props) => {
   };
 
   const getBanner = async () => {
-    let url = "https://letc-backend.onrender.com/banner/getbanner";
+    let url = "https://www.cwtrust-india.com/banner/getbanner";
 
     const response = await fetch(url, {
       method: "GET",
@@ -63,7 +63,7 @@ const LetcState = (props) => {
   };
 
   const getExams = async () => {
-    let url = "https://letc-backend.onrender.com/exams/allexams";
+    let url = "https://www.cwtrust-india.com/exams/allexams";
     const response = await fetch(url, {
       method: "GET",
       headers: {

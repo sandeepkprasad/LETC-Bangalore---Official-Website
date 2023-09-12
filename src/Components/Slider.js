@@ -54,7 +54,7 @@ const ImageSlider = () => {
     <div className="md:max-w-[1400px] md:h-[350px] w-full h-[120px] m-auto relative group mb-3 mt-24 md:mt-0">
       <div
         style={{
-          backgroundImage: `url(https://letc-backend.onrender.com/bannerimage/${slides[currentIndex]})`,
+          backgroundImage: `url(https://www.cwtrust-india.com/bannerimage/${slides[currentIndex]})`,
         }}
         className="w-full h-full bg-center bg-cover duration-500"
       ></div>
