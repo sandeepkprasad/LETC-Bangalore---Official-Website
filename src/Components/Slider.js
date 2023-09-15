@@ -6,7 +6,7 @@ const ImageSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const timeout = useRef(null);
   const { getBanner, banner } = useContext(letcContext);
-  const length = 4;
+  const length = 3;
 
   const slides =
     banner &&
@@ -16,7 +16,7 @@ const ImageSlider = () => {
 
   useEffect(() => {
     getBanner();
-  });
+  }, []);
 
   useEffect(() => {
     const nextSlide = () => {
@@ -25,7 +25,7 @@ const ImageSlider = () => {
       );
     };
 
-    timeout.currentIndex = setTimeout(nextSlide, 5000);
+    timeout.currentIndex = setTimeout(nextSlide, 3000);
 
     return function () {
       if (timeout.currentIndex) {
@@ -54,7 +54,7 @@ const ImageSlider = () => {
     <div className="md:max-w-[1400px] md:h-[350px] w-full h-[120px] m-auto relative group mb-3 mt-24 md:mt-0">
       <div
         style={{
-          backgroundImage: `url(https://www.cwtrust-india.com/bannerimage/${slides[currentIndex]})`,
+          backgroundImage: `url(${slides[currentIndex]})`,
         }}
         className="w-full h-full bg-center bg-cover duration-500"
       ></div>

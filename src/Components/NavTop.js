@@ -19,7 +19,7 @@ const NavTop = () => {
           </div>
           <div className="flex">
             <MdEmail className="text-xl mr-2" />
-            <p className="tracking-wider text-base">contact@letceducation.com</p>
+            <p className="tracking-wider text-base">contact@letceducation.in</p>
           </div>
         </div>
         <div className="socials flex space-x-5 text-black text-xl">

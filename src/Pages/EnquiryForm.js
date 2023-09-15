@@ -2,8 +2,7 @@ import React, { useContext, useRef, useState } from "react";
 import letcContext from "../Context/letcContext";
 
 export default function Modal() {
-  const { showModal, setShowModal, addEnquiry, enquiry } =
-    useContext(letcContext);
+  const { showModal, setShowModal, addEnquiry } = useContext(letcContext);
   const [enq, setEnq] = useState({ name: "", number: "", course: "" });
   const refSubmit = useRef(null);
 

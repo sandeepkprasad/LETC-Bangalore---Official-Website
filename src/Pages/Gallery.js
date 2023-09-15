@@ -6,6 +6,7 @@ const Gallery = () => {
 
   useEffect(() => {
     getGallery();
+    // eslint-disable-next-line
   }, []);
 
   useEffect(() => {
@@ -24,7 +25,7 @@ const Gallery = () => {
             gallery.map((item) => {
               return (
                 <img
-                  src={`https://www.cwtrust-india.com/galleryimage/${item.image}`}
+                  src={item.image}
                   alt="..."
                   className="w-[440px] md:w-[220px] rounded-3xl cursor-pointer md:hover:scale-150 ease-in-out duration-300 mb-3"
                   key={item._id}

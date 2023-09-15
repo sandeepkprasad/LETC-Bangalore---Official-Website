@@ -19,7 +19,7 @@ const VideoGallery = () => {
           allowFullScreen
           className="rounded-3xl w-full"
         ></iframe>
-        <iframe
+        {/*<iframe
           width="300"
           height="250"
           src="https://www.youtube.com/embed/q54ZEkOdB8k"
@@ -28,8 +28,8 @@ const VideoGallery = () => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
           className="rounded-3xl w-full"
-        ></iframe>
-        <iframe
+  ></iframe>*/}
+        {/*<iframe
           width="300"
           height="250"
           src="https://www.youtube.com/embed/q54ZEkOdB8k"
@@ -38,7 +38,7 @@ const VideoGallery = () => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
           className="rounded-3xl w-full"
-        ></iframe>
+></iframe>*/}
       </div>
     </div>
   );

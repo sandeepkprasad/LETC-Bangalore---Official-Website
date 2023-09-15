@@ -9,7 +9,7 @@ const GalleryHome = () => {
 
   useEffect(() => {
     getGallery();
-  });
+  }, []);
 
   const slideLeft = () => {
     var slider = document.getElementById("gallery-slider");
@@ -42,8 +42,8 @@ const GalleryHome = () => {
               gallery.map((item) => (
                 <img
                   className="w-[220px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300 rounded-3xl"
-                  src={`https://www.cwtrust-india.com/galleryimage/${item.image}`}
-                  alt="/"
+                  src={item.image}
+                  alt="..."
                   key={item._id}
                 />
               ))}

@@ -6,7 +6,7 @@ const Banner = () => {
 
   useEffect(() => {
     getNotification();
-  });
+  }, []);
 
   return (
     <div className="w-full mt-5 md:mt-0 mb-14 px-10">

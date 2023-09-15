@@ -56,7 +56,7 @@ const MobileNav = () => {
                 <div className="dropdown-content text-white text-xs font-normal tracking-widest space-y-5">
                   <p>
                     <Link
-                      to="/courses"
+                      to="/courses/course-1"
                       className="flex items-center"
                       onClick={handleNav}
                     >
@@ -66,7 +66,7 @@ const MobileNav = () => {
                   </p>
                   <p>
                     <Link
-                      to="/courses"
+                      to="/courses/course-2"
                       className="flex items-center"
                       onClick={handleNav}
                     >
@@ -76,7 +76,7 @@ const MobileNav = () => {
                   </p>
                   <p>
                     <Link
-                      to="/courses"
+                      to="/courses/course-3"
                       className="flex items-center"
                       onClick={handleNav}
                     >
@@ -86,7 +86,7 @@ const MobileNav = () => {
                   </p>
                   <p>
                     <Link
-                      to="/courses"
+                      to="/courses/course-4"
                       className="flex items-center"
                       onClick={handleNav}
                     >
