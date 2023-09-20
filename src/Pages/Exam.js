@@ -8,6 +8,7 @@ const Exam = () => {
 
   useEffect(() => {
     getExams();
+    // eslint-disable-next-line
   });
 
   useEffect(() => {

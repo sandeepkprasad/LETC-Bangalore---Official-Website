@@ -17,8 +17,8 @@ const Home = () => {
     <div>
       <Slider />
       <Banner />
-      <ExamHome />
       <AboutUs />
+      <ExamHome />
       <Courses />
       <Students />
       {/*<VideoGallery />*/}

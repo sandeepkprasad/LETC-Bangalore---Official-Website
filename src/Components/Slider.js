@@ -16,6 +16,7 @@ const ImageSlider = () => {
 
   useEffect(() => {
     getBanner();
+    // eslint-disable-next-line
   }, []);
 
   useEffect(() => {
@@ -51,7 +52,7 @@ const ImageSlider = () => {
   };
 
   return (
-    <div className="md:max-w-[1400px] md:h-[350px] w-full h-[120px] m-auto relative group mb-3 mt-24 md:mt-0">
+    <div className="md:max-w-[1400px] md:h-[100vh] w-full h-[200px] m-auto relative group mb-3 mt-24 md:mt-0">
       <div
         style={{
           backgroundImage: `url(${slides[currentIndex]})`,

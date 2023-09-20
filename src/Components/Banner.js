@@ -6,6 +6,7 @@ const Banner = () => {
 
   useEffect(() => {
     getNotification();
+    // eslint-disable-next-line
   }, []);
 
   return (

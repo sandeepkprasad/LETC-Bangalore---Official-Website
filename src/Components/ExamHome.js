@@ -7,9 +7,10 @@ const ExamHome = () => {
 
   useEffect(() => {
     getExams();
+    // eslint-disable-next-line
   }, []);
   return (
-    <div className="w-full mt-5 md:mt-0 mb-14 px-10">
+    <div className="w-full mt-5 mb-14 px-10">
       <div className="exam-notifications">
         <div className="mb-8">
           <h3 className="font-bold text-slate-700 text-2xl mb-5 tracking-wider">
