@@ -21,7 +21,7 @@ const Banner = () => {
               return (
                 <div
                   id="scroll-text"
-                  className="font-bold text-base text-black tracking-widest whitespace-nowrap py-1"
+                  className="font-bold text-lg text-black tracking-widest whitespace-nowrap py-1"
                   key={item._id}
                 >
                   {item.notification}

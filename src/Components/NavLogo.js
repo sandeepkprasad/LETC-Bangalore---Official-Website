@@ -18,7 +18,7 @@ const NavLogo = () => {
         </div>
         <div className="enquiry-btn">
           <button
-            className="text-white bg-red-600 hover:bg-black duration-300 px-4 py-2 rounded-lg tracking-wide shadow-lg animate-bounce"
+            className="text-white bg-red-600 hover:bg-black duration-300 px-6 py-3 rounded-lg tracking-wider shadow-lg animate-bounce"
             onClick={() => setShowModal(true)}
           >
             Enquiry Now

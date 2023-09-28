@@ -42,7 +42,7 @@ const results = [
 const Result = () => {
   return (
     <div className="container mx-auto py-14 mt-20 md:mt-0">
-      <div className="rsult-img mb-10">
+      <div className="reult-img mb-10">
         <img
           src={resultTop}
           alt="..."
@@ -50,7 +50,7 @@ const Result = () => {
         />
       </div>
       <div className="about-us mb-16">
-        <h3 className="font-bold text-slate-700 text-2xl mb-5 ml-5 md:ml-0 tracking-wider">
+        <h3 className="font-bold text-slate-700 text-3xl mb-5 ml-5 md:ml-0 tracking-wider">
           Results - Our Topper Students
         </h3>
       </div>

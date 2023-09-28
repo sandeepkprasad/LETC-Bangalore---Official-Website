@@ -13,10 +13,10 @@ const AboutUs = () => {
           />
         </div>
         <div className="about-text md:w-2/3 py-3">
-          <h3 className="text-[#2E3192] text-2xl font-bold text-center mb-5 md:mb-0">
+          <h3 className="text-[#2E3192] text-3xl font-bold text-center mb-5 md:mb-0">
             About Us
           </h3>
-          <p className="text-sm mb-2">
+          <p className="text-base mb-2">
             <b>L.E.T.C</b> was established with a great ambition of providing
             quality services in the field of education in the academic year
             2009. A team of experienced and dedicated faculties took the
@@ -25,13 +25,13 @@ const AboutUs = () => {
             commitment under the visionary leadership of management of{" "}
             <b>L.E.T.C</b>.
           </p>
-          <p className="text-sm mb-2">
+          <p className="text-base mb-2">
             It is very proud to mention here that today <b>L.E.T.C</b> has
             emerged as one of the most successful coaching centre in North
             Bangalore with a proven track record of results in the previous
             years.
           </p>
-          <p className="text-sm mb-2">
+          <p className="text-base mb-2">
             <b>L.E.T.C</b> has become most sought and successful coaching centre
             in North Bangalore. From the year 2010 we are coaching the students
             for IX and X exams also. From this academic year IX + IIT/NEET
@@ -41,7 +41,7 @@ const AboutUs = () => {
             are being trained for various competitive exams like JEE (Main) /
             BITSAT / K—CET / COMEDK / NEET / AIIMS /JIPMER
           </p>
-          <p className="text-sm mb-2">
+          <p className="text-base mb-2">
             Apart from science stream one more most popular stream among 10th
             passed out children is Commerce. Commerce stream also gives range
             ofcareer options for their future. We at LETC therefore included

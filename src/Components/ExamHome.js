@@ -29,13 +29,13 @@ const ExamHome = () => {
                       className="exam-notifications w-full space-y-3"
                       key={item._id}
                     >
-                      <p className="font-bold text-base text-[#2E3192] tracking-wider break-words">
+                      <p className="font-bold text-lg text-[#2E3192] tracking-wider break-words">
                         {item.text}
                       </p>
                       <Link
                         to={item.link}
                         target="_blank"
-                        className="font-medium blink text-xs text-red-500 tracking-wider"
+                        className="font-bold blink text-sm text-red-500 tracking-wider"
                       >
                         Click here
                       </Link>

@@ -20,7 +20,7 @@ const DataCounter = () => {
           </div>
           <div className="student-counter">
             <h1 className="text-amber-400 font-bold text-3xl md:text-7xl mb-3 md:tracking-widest">
-              <CountUp start={0} end={5} duration={10} />+
+              <CountUp start={0} end={4} duration={10} />+
             </h1>
             <h4 className="text-white font-bold text-xl md:text-3xl md:tracking-widest">
               Courses
@@ -28,7 +28,7 @@ const DataCounter = () => {
           </div>
           <div className="student-counter">
             <h1 className="text-amber-400 font-bold text-3xl md:text-7xl mb-3 md:tracking-widest">
-              <CountUp start={0} end={100} duration={10} />
+              <CountUp start={0} end={20} duration={10} />
             </h1>
             <h4 className="text-white font-bold text-xl md:text-3xl md:tracking-widest">
               Faculty

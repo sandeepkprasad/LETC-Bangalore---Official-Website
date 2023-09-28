@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="bg-white hidden md:block mb-3">
       <div className="container mx-auto flex justify-center h-10">
         <div className="nav-items flex items-center">
-          <ul className="flex space-x-10 text-black text-sm font-bold tracking-widest">
+          <ul className="flex space-x-10 text-black text-base font-bold tracking-widest">
             <li className="hover:text-[#2E3192]">
               <Link to="/">HOME</Link>
             </li>
@@ -20,7 +20,7 @@ const Navbar = () => {
                   OUR COURSES
                   <MdArrowForwardIos className="ml-1" />
                 </span>
-                <div className="dropdown-content text-white text-xs font-normal tracking-widest space-y-5">
+                <div className="dropdown-content text-white text-sm font-normal tracking-widest space-y-5">
                   <p>
                     <Link to="/courses/course-1" className="flex items-center">
                       HIGH SCHOOL LEVEL
@@ -29,13 +29,13 @@ const Navbar = () => {
                   </p>
                   <p>
                     <Link to="/courses/course-2" className="flex items-center">
-                      ENGINEERING PREPARATIONS
+                      ENGINEERING PREPARATION
                       <MdArrowForwardIos className="ml-1" />
                     </Link>
                   </p>
                   <p>
                     <Link to="/courses/course-3" className="flex items-center">
-                      MEDICAL PREPARATIONS
+                      MEDICAL PREPARATION
                       <MdArrowForwardIos className="ml-1" />
                     </Link>
                   </p>

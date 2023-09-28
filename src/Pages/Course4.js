@@ -16,10 +16,10 @@ const Courses = () => {
         />
       </div>
       <div className="about-us mb-16">
-        <h3 className="font-bold text-slate-700 text-2xl mb-5 ml-5 md:ml-0 tracking-wider">
+        <h3 className="font-bold text-slate-700 text-3xl mb-5 ml-5 md:ml-0 tracking-wider">
           Our Courses
         </h3>
-        <p className="px-5 md:px-0">
+        <p className="px-5 md:px-0 text-lg">
           Our courses are strcutured to the requirement of both beard exams and
           competitive exams. Initially the concepts are taught in detail and
           then students are exposed to different level of problems and concepts
@@ -31,7 +31,7 @@ const Courses = () => {
         <h3 className="font-bold text-5xl text-purple-600/90 mb-10">
           COMMERCE
         </h3>
-        <h4 className="font-bold text-base text-slate-600 mb-10">
+        <h4 className="font-bold text-lg text-slate-600 mb-10">
           COMMERCE is defined as the exchange of goods and services among
           individuals and business entities. In academics, Commerce is
           considered to be one of the most popular streams of education along
@@ -52,7 +52,7 @@ const Courses = () => {
               <TbArrowBadgeRightFilled className="text-[#C6272C] text-3xl mr-3" />
               <p>Commerce Class</p>
             </div>
-            <div className="font-bold text-base text-slate-600 space-y-3">
+            <div className="font-bold text-lg text-slate-600 space-y-3">
               <p>
                 Commerce Course is designed to provide students with a
                 comprehensive understanding of the principles and practices of

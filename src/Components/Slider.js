@@ -6,7 +6,7 @@ const ImageSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const timeout = useRef(null);
   const { getBanner, banner } = useContext(letcContext);
-  const length = 3;
+  const length = 4;
 
   const slides =
     banner &&
